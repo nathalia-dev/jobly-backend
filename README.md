@@ -16,6 +16,9 @@ Jobly was developed as a bootcamp exercise to practice **Node.js**, **React** an
 - Once the user found the desirable job, he/she can apply for it. It's not possible (yet) to undo the apply action. 
 - The authentication process uses a user's *token*. It goes throught the *http request* inside the *header*. To keep the user's logged in, the app uses *local storge*.
 
+##### Check it out:
+
+- The full project was deployed using heroku and surge. Check it [here](https://nathalia-jobly.surge.sh/).
 
 ## Project Tech Specs
 
@@ -35,16 +38,17 @@ Jobly was developed as a bootcamp exercise to practice **Node.js**, **React** an
 
 - First, you are gonna need to install Node.js. In case you don't know if you do have it, you can run in your terminal `node -v `.
 - Also, you are gonna need NPM. In case you don't know if you do have it, you can run in your terminal `npm -v `.
-- After this, in your terminal, execute `git clone` and make sure you're at project's root folder. 
+- After this, in your terminal, execute `git clone` and make sure you're at project's root directory. 
 - Now, its time to install the dependencies. Run `npm install`.
 - To setup the database , make sure you do have PostgreSQL installed. 
 - From your terminal, inside the project's root folder, run `psql < jobly.sql`. It will create your database and also populate it with an initial set of data. 
-- To initiate jobly-backend just run `npm start` from your terminal, inside the project's root folder.  
+- To initiate jobly-backend just run `npm start` from your terminal, inside the project's root directory.  
+- The URL for the backend is at http://localhost:3001/
 
 ## Tests
 
 - Jest and SuperTest.
-- to execute the tests , run `jest -i ` from your terminal. (make sure you're at project's root folder 😄).
+- to execute the tests , run `jest -i ` from your terminal. (make sure you're at project's root directory 😄).
 
 ## Future Improvements
 
