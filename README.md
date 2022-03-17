@@ -2,7 +2,7 @@
 
 ## Project Description 
 
-jobly-backend is the backend part of Jobly: A full stack application that shows jobs oportunities and enablee the user to apply for them. Also, it provides information about each company that is offering a job.
+jobly-backend is the backend part of Jobly: A full stack application that shows jobs oportunities and enable the user to apply for them. Also, it provides information about each company that is offering a job.
 
 ## Project Motivation
 
