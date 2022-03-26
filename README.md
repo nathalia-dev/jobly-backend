@@ -4,6 +4,8 @@
 
 jobly-backend is the backend part of Jobly: A full stack application that shows jobs oportunities and enable the user to apply for them. Also, it provides information about each company that is offering a job.
 
+for jobly-frontend, please click [here](https://github.com/nathalia-dev/jobly-frontend).
+
 ## Project Motivation
 
 Jobly was developed as a bootcamp exercise to practice **Node.js** and **React** knowledge. 
@@ -16,9 +18,15 @@ Jobly was developed as a bootcamp exercise to practice **Node.js** and **React**
 - Once the user found the desirable job, he/she can apply for it. It is possible to apply for as many jobs as he/she wants. But, it's not possible (yet) to undo the apply action. 
 - The authentication process uses a user's *token*. It goes throught the *http request* inside the *header*. To keep the user's logged in, the app uses *local storge*.
 
-##### Check it out:
+## Deploy:
 
 - The full project was deployed using heroku and surge. Check it [here](https://nathalia-jobly.surge.sh/).
+- To login:
+
+| Username | Password | 
+| ---------| ---------| 
+| test3    | 123456   | 
+
 
 ## Project Tech Specs
 
