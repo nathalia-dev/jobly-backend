@@ -39,9 +39,9 @@ Jobly was developed as a bootcamp exercise to practice **Node.js** and **React**
 
 - First, you are gonna need to install Node.js. In case you don't know if you do have it, you can run in your terminal `node -v `.
 - Also, you are gonna need NPM. In case you don't know if you do have it, you can run in your terminal `npm -v `.
-- After this, in your terminal, execute `git clone` and make sure you're at project's root directory. 
-- Now, its time to install the dependencies. Run `npm install`.
-- To setup the database , make sure you do have PostgreSQL installed. 
+- After this, in your terminal, execute `git clone`. 
+- Now it's time to install the dependencies. From the project's root directory, run `npm install`.
+- To setup the database , make sure you do have PostgreSQL installed. If you are new to PostgreSQL, please click [here]("https://www.postgresql.org/") 
 - From your terminal, inside the project's root directory, run `psql < jobly.sql`. It will create your database and also populate it with an initial set of data. 
 - To initiate jobly-backend just run `npm start` from your terminal, inside the project's root directory.  
 - The URL for the backend is at http://localhost:3001/
@@ -49,7 +49,7 @@ Jobly was developed as a bootcamp exercise to practice **Node.js** and **React**
 ## Tests
 
 - Jest and SuperTest.
-- to execute the tests , run `jest -i ` from your terminal. (make sure you're at project's root directory 😄).
+- to execute the tests , run `npm run test ` from your terminal. (make sure you're at project's root directory 😄).
 
 ## Future Improvements
 
